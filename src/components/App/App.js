@@ -20,6 +20,7 @@ const App = () => {
     if (lsContacts) {
       dispatch(setContacts(JSON.parse(lsContacts)));
     }
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
