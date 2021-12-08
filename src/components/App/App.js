@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import s from './App.module.scss';
-import { v4 } from 'uuid';
 
 import ContactForm from '../ContactForm';
 import ContactList from '../ContactList';
